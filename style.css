@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 123px;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.box {
+    width: 81px;
+    height: 81px;
+    border: 2px solid black;
+}
+
+#blue {
+    background-color: blue;
+}
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#aqua {
+    background-color: aqua;
+}
